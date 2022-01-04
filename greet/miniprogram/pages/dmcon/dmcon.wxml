@@ -1,0 +1,30 @@
+<!--pages/dmcon/dmcon.wxml-->
+<view class="container">
+<form catchsubmit="formSubmit">
+  <view class="viewpicker">
+    <picker value="{{index}}" range="{{array}}"   bindchange="bindPickerChange">
+    <view class="picker">
+      滚动时间: {{array[index]}} 秒
+    </view>
+  </picker>
+  </view>
+  <view class="viewpicker">
+    <picker value="{{index1}}" range="{{array1}}"  bindchange="bindSPickerChange">
+    <view class="picker">
+      闪烁时间: {{array1[index1]}} 秒
+    </view>
+  </picker>
+  </view>
+  <view class="viewpicker">
+    <picker value="{{index2}}" range="{{array2}}"  bindchange="bindZPickerChange">
+    <view class="picker">
+      字体大小: {{array2[index2]}} 
+    </view>
+  </picker>
+  </view>
+  <view class="viewpicker">
+    <input placeholder="请输入弹幕内容"  class="coninput" name="con"/>
+  </view>
+  <button type="primary" class="bmButton" formType="submit">生成弹幕</button>
+</form>
+</view>

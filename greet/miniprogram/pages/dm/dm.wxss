@@ -1,0 +1,59 @@
+/* pages/dm/dm.wxss */
+.bottom{
+  position: fixed;
+  height: 50rpx;
+  bottom: 30rpx;
+  width: 100%;
+  background-color: rgb(12, 2, 2);
+}
+.barrage-box {
+  width: 140vh;
+  height: 115vw;
+  text-align: center;
+  transform-origin: center;
+  transform: rotate(90deg);
+  white-space: nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  overflow: hidden;
+  /*闪动时间*/
+  animation: aniShake 10s linear infinite;
+}
+
+.text {
+  width: 100%;
+  height: auto;
+  display: flex;
+  line-height: 290rpx;  /** 垂直居中 **/ 
+  text-align: center;   /** 水平居中 **/ 
+  justify-content: space-around;
+  flex-direction: column;
+  /*字体大小*/
+  font-size: 50px;
+  color: #FFF;
+  animation: aniMove 5s linear infinite;
+  /*infinite无限播放*/
+  animation-fill-mode: forwards;
+}
+
+/* 文字滚动 */
+@keyframes aniMove {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+/* 抖动字幕效果 */
+@keyframes aniShake {
+  /* 背景颜色更换
+  0% { background-color: #e74c3c; }
+  20% { background-color: #f1c40f; }
+  40% { background-color: #1abc9c; }
+  60% { background-color: #3498db; }
+  80% { background-color: #9b59b6; }
+  100% { background-color: #e74c3c; }
+  */
+  0%, 33% { text-shadow: 3px -3px 0px #e7d90d, -5px 5px 0px #199cb3 }
+ /* 34%, 66% { text-shadow: 5px -5px 0px #e7d90d, -3px 3px 0px #199cb3 }*/
+  67%, 100% { text-shadow: 3px -3px 0px #199cb3, -5px 5px 0px #e7d90d } 
+}

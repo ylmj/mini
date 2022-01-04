@@ -1,0 +1,28 @@
+/* pages/hello/hello.wxss */
+.bottom{
+  position: fixed;
+  bottom: 30rpx;
+  width: 100%;
+}
+.bottomButton{
+  bottom:30rpx;
+  width: 100%;
+  font-size: 50rpx;
+  background-color: #FA5151;
+  border-radius: 70rpx;
+  color: aliceblue;
+}
+.textstyle{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10rpx;
+  font-family: cursive;
+  color: black;
+  font-size: large;
+  text-align: left;
+  font-weight: bold;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+  text-indent: 40px;
+  line-height: 60rpx;
+}

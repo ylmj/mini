@@ -1,0 +1,12 @@
+<!--pages/dm/dm.wxml-->
+<view class="container">
+  <view class="motto" animation="{{ani}}">
+    <text>{{motto}}</text>
+  </view>
+  <view class="barrage-box" style="animation-duration: {{sstime}}s">
+    <text class="text" style="animation-duration: {{anitime}}s; font-size: {{zzdx}}px">
+      {{motto}}
+    </text>
+  </view>
+  <!-- <button class="bottom" bindtap="stop">{{sign}}</button> -->
+</view>

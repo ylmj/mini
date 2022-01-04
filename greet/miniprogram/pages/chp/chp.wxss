@@ -1,0 +1,59 @@
+/* pages/chp/chp.wxss */
+.container{
+  height: 100%;
+  min-height: 100vh;
+  text-align: center;
+}
+.headY{
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20rpx;
+  margin-bottom: 10rpx;
+  color: black;
+  font-size: large;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.inputText{
+  text-align: left;
+  font-size: medium;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  border-bottom: 1px solid gray;
+}
+.textcon{
+  margin-top: 20rpx;
+  height: 600rpx;
+}
+.bottom{
+  position: fixed;
+  left: 25%;
+  right: 25%;
+  align-items: center;
+  bottom: 30rpx;
+}
+button{
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.conY{
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+  line-height: 60rpx;
+  background: linear-gradient(to right,yellow blue red);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.cz{
+  background-color: rgb(233, 50, 50);
+  color:white;
+  margin-top: 20rpx;
+}

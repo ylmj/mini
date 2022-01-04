@@ -1,0 +1,10 @@
+/* pages/dmcon/dmcon.wxss */
+.bmButton{
+  position: fixed;
+  bottom: 30rpx;
+  width: 100%;
+}
+.viewpicker
+{
+  margin-top: 5px;
+}

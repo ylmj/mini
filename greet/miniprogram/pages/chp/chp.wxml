@@ -1,0 +1,16 @@
+<!--pages/chp/chp.wxml-->
+<view class="container">
+  <view class="headY">语料收集</view>
+  <text class="conY">请添加祝福！</text>
+  <form  bindsubmit="bindFormSubmit"> 
+    <view class="textcon">
+     <textarea value="{{inputValue}}" type="text" placeholder="请输入祝福语" class="inputText" auto-height name="textarea" ></textarea>
+    </view>
+    <view class="bottom">
+      <button  type="primary" form-type="submit">提交</button>
+      <button class="cz"   form-type="reset" >重置</button>
+    </view>
+  </form>
+</view>
+
+

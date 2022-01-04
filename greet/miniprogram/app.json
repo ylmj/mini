@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/dmcon/dmcon",
+    "pages/dm/dm",
+    "pages/hello/hello",
+    "pages/chp/chp"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "每天一句问候",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+    {
+      "pagePath": "pages/hello/hello",
+      "text": "首页",
+      "iconPath": "images/selecthome.png",
+      "selectedIconPath": "images/主页.png"
+    },
+    {
+      "pagePath": "pages/dmcon/dmcon",
+      "text": "弹幕",
+      "iconPath": "images/dm.png",
+      "selectedIconPath": "images/selectdm.png"
+    },
+    {
+      "pagePath": "pages/chp/chp",
+      "text": "个人",
+      "iconPath": "images/chp.png",
+      "selectedIconPath": "images/selectchp.png"
+    }
+  ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

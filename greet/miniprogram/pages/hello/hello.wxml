@@ -1,0 +1,11 @@
+<!--pages/hello/hello.wxml-->
+<view class="container">
+  <view class="page-body">
+    <view class="page-section page-section-spacing">
+      <view class="textstyle">{{greet.con}}</view>
+    </view>
+  </view>
+</view>
+<view class="bottom">
+   <button bindtap="getRandom" class="bottomButton">换 一 个</button>
+</view>
